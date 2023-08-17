@@ -2,14 +2,14 @@ package api.runner;
 
 import com.intuit.karate.junit5.Karate;
 
-public class TestRunner {
+public class RegressionRunner {
 	
 	@Karate.Test
 	public Karate runTest()	{
 		// address for our freature files
 		// and tags
 		return Karate.run("classpath:features")
-				.tags("Regression");
+				.tags("@Regression");
 	}
 
 }
