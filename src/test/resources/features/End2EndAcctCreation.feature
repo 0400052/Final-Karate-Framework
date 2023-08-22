@@ -1,4 +1,3 @@
-@Smoke
 Feature: End to End test for account creation
 
   Background: 
